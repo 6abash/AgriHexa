@@ -60,7 +60,7 @@ move.
 | [`/kinematics`](kinematics)   | Servo2040 MCU: per-leg inverse kinematics, tripod gait      |
 | [`/navigation`](navigation)   | Satellite-image A* terrain path planner (ground station)    |
 | [`/simulation`](simulation)   | MATLAB one-leg IK visualizer; full hexapod Simscape model in progress |
-| [`/hardware`](hardware)     | BOM (CAD and wiring diagram to follow)                       |
+| [`/hardware`](hardware)     | BOM, [CAD](hardware/cad) (partial, more coming), wiring diagram in progress |
 | [`/docs`](docs)         | [Design differences from Make Your Pet](docs/design-differences.md) |
 | [`/media`](media)        | Photos and demo videos                                            |
 
