@@ -7,6 +7,13 @@ based on the open-source [Make Your Pet](https://github.com/makeyourpet)
 platform, substantially redesigned and re-engineered for planting and
 terrain navigation.
 
+## Achievements
+
+🏆 **1st Place, Open Category — WRCC 2026**, for outstanding autonomous
+performance.
+
+<img src="media/images/wrcc2026-1st-place.webp" alt="AgriHexa — 1st Place, Open Category, WRCC 2026" width="500">
+
 ## Features
 
 - **Planting mechanism** — deploys small (3–5 mm radius) circular
@@ -40,6 +47,11 @@ PS4 controller input always takes priority over autonomous commands —
 touching the controller instantly cancels any in-progress autonomous
 move.
 
+## Media
+
+<video src="media/videos/short-pitch.mp4" controls width="500"></video>
+<video src="media/videos/stability-system.mp4" controls width="500"></video>
+
 ## Repository structure
 
 | Path            | Contents                                                        |
@@ -47,10 +59,10 @@ move.
 | [`/firmware`](firmware)     | ESP32 control MCU: Wi-Fi, PS4 teleop, BNO055 stability PID |
 | [`/kinematics`](kinematics)   | Servo2040 MCU: per-leg inverse kinematics, tripod gait      |
 | [`/navigation`](navigation)   | Satellite-image A* terrain path planner (ground station)    |
-| `/simulation`    | *(coming soon)* MATLAB gait simulation                            |
-| `/hardware`      | *(coming soon)* CAD, BOM, wiring diagrams                         |
-| `/docs`          | *(coming soon)* Build/design write-ups                            |
-| `/media`         | *(coming soon)* Photos and demo video                             |
+| [`/simulation`](simulation)   | MATLAB one-leg IK visualizer; full hexapod Simscape model in progress |
+| [`/hardware`](hardware)     | BOM (CAD and wiring diagram to follow)                       |
+| [`/docs`](docs)         | [Design differences from Make Your Pet](docs/design-differences.md) |
+| [`/media`](media)        | Photos and demo videos                                            |
 
 ## Getting started
 
@@ -62,6 +74,8 @@ move.
 3. **Navigation (ground station)** — see
    [`navigation/README.md`](navigation/README.md) to run the A*
    satellite planner.
+4. **Simulation** — see [`simulation/README.md`](simulation/README.md)
+   for the MATLAB one-leg IK visualizer.
 
 ## Credits
 

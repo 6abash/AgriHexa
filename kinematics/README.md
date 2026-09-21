@@ -59,8 +59,10 @@ mkdir build && cd build
 cmake -DPICO_SDK_PATH=/path/to/pico-sdk \
       -DPIMORONI_PICO_PATH=/path/to/pimoroni-pico ..
 make -j4
-# flash agrihexa_servo2040.uf2 to the Servo2040 in BOOTSEL mode
+# flash Hexapod_OS.uf2 to the Servo2040 in BOOTSEL mode
 ```
+
+Built and tested against Pico SDK 1.5.1.
 
 Alternatively set `PICO_SDK_FETCH_FROM_GIT=ON` /
 `PIMORONI_PICO_FETCH_FROM_GIT=ON` to have CMake pull both SDKs
