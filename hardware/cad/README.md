@@ -8,9 +8,11 @@ the full assembly.
 |------|------|
 | `frame.STEP` | Main body frame |
 | `servo_body.STEP` | Servo mounting body |
+| `servo_back_hole.STEP` | Servo back-hole mount |
 | `coxa_left.STEP` | Left-side coxa (hip) link |
 | `coxa_right.STEP` | Right-side coxa (hip) link |
 | `femur.STEP` | Femur (thigh) link |
+| `tibia.STEP` | Tibia (shin) link |
 
 Note the left/right coxa are separate parts, not a single mirrored
 part — keep that in mind if you're assembling or referencing them
