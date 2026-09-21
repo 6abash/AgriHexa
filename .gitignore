@@ -1,0 +1,24 @@
+# Secrets — never commit real credentials
+firmware/esp32/include/secrets.h
+
+# PlatformIO
+.pio/
+.vscode/
+
+# CMake / Pico SDK build output
+build/
+*.uf2
+*.elf
+*.bin
+*.map
+*.hex
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS cruft
+.DS_Store
+Thumbs.db
